@@ -19,7 +19,7 @@ SaveSheetBmp(index, name)
     WinWaitActive, Save Picture,, 3
     ControlSetText, Edit1, Objects, Save Picture
 	Control, Check,, TCheckBox1, Save Picture
-	ControlSetText, TEdit1, 300, Save Picture
+	ControlSetText, TEdit1, %EXP_DPI%, Save Picture
 
     ; Open save dialog
 	ControlClick, OK, Save Picture
