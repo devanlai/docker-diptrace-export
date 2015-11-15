@@ -14,5 +14,4 @@ RUN rm /tmp/diptrace.reg
 
 COPY ahk/*.ahk /tmp/ahk/
 
-VOLUME ["/mnt/import/", "/mnt/export/"]
 ENTRYPOINT ["/tmp/bin/export-bitmap.sh"]
