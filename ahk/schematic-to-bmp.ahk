@@ -19,13 +19,13 @@ SaveSheetBmp(index, name)
     WinWaitActive, Save Picture,, 3
     ControlSetText, Edit1, Objects, Save Picture
 	Control, Check,, TCheckBox1, Save Picture
-	ControlSetText, TEdit1, %EXP_DPI%, Save Picture
+    ControlSetText, TEdit1, %EXP_DPI%, Save Picture
 
     ; Open save dialog
-	ControlClick, OK, Save Picture
+    ControlClick, OK, Save Picture
     WinWaitNotActive, Save Picture,, 3
 
-	; Save the bitmap
+    ; Save the bitmap
     myFileName := name . ".bmp"
     ControlSetText, Edit1, %myFileName%, A
     ControlClick, &Save, A
@@ -55,7 +55,7 @@ SaveAllSheetsBmp()
     for index, name in Sheets
     {
         SaveSheetBmp(index, name)
-		WinWaitActive,Preview,, 3
+        WinWaitActive,Preview,, 3
     }
 }
 
@@ -68,11 +68,11 @@ OpenAndExportRecentBmp()
     Sleep, 8000
 
     SaveAllSheetsBmp()
-	Sleep, 1000
+    Sleep, 1000
 
     ControlClick, Close, Preview
 
-	Send, !{F4}
+    Send, !{F4}
 }
 
 OpenAndExportRecentBmp()
