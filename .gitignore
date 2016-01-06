@@ -1,0 +1,4 @@
+# Ignore DipTrace files
+*.dch
+*.dip
+*.asc
