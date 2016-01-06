@@ -1,4 +1,4 @@
-FROM devanlai/diptrace:2.4.0.2
+FROM devanlai/diptrace:stable
 
 MAINTAINER Devan Lai <devan.lai@gmail.com>
 
