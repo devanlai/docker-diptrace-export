@@ -2,7 +2,7 @@ REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Novarm\DipTrace]
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Common]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Common]
 "bayarea"=dword:00000001
 "bmpfolder"="C:\\users\\root\\My Documents\\DipTrace"
 "compeditcaption"="Component Editor"
@@ -27,7 +27,7 @@ REGEDIT4
 "update_enabled"=dword:00000000
 "versiondone"=""
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\CompEdit]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\CompEdit]
 "buscb1"=dword:00000001
 "buscb2"=dword:00000000
 "buscb3"=dword:00000000
@@ -130,9 +130,9 @@ REGEDIT4
 "quickbuttons"=dword:00000000
 "showpadnums"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Dip]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Dip]
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Dip\Default]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Dip\Default]
 "autodir"="C:\\Program Files\\DipTrace\\Lib"
 "axiscolor"=dword:00ff0000
 "blackprint"=dword:00000000
@@ -386,7 +386,7 @@ REGEDIT4
 "trialstartup"=dword:00000001
 "ygsize"=hex:7b,14,ae,47,e1,7a,0e,40
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Dip\Files]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Dip\Files]
 "file0"=""
 "file1"=""
 "file2"=""
@@ -394,13 +394,13 @@ REGEDIT4
 "file4"=""
 "file5"=""
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Dip\Libs]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Dip\Libs]
 "allcount"=dword:00000000
 "clibcount"=dword:00000000
 "libmode"=dword:00000000
 "libversionmode"=dword:00000001
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Dip\Traces]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Dip\Traces]
 "allowwires"=dword:00000000
 "anglecorrect"=dword:00000001
 "anlayer"=dword:00000000
@@ -629,7 +629,7 @@ REGEDIT4
 "useposition"=dword:00000000
 "wiredir"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\PattEdit]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\PattEdit]
 "cccont"=dword:00000000
 "ccheight"=hex:00,00,00,00,00,00,12,40
 "ccolor"=dword:00ff0000
@@ -693,9 +693,9 @@ REGEDIT4
 "slmode"=dword:00000002
 "ygsize"=hex:7b,14,ae,47,e1,7a,0e,40
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Schematic]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Schematic]
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Schematic\Default]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Schematic\Default]
 "allparts"=dword:00000001
 "autodir"="C:\\Program Files\\DipTrace\\Lib"
 "autopower"=dword:00000001
@@ -876,7 +876,7 @@ REGEDIT4
 "trialstartup"=dword:00000001
 "widepagetab"=dword:00000000
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Schematic\Files]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Schematic\Files]
 "file0"=""
 "file1"=""
 "file2"=""
@@ -884,7 +884,7 @@ REGEDIT4
 "file4"=""
 "file5"=""
 
-[HKEY_CURRENT_USER\Software\Novarm\DipTrace\Schematic\Libs]
+[HKEY_CURRENT_USER\Software\Novarm\DipTrace Beta\Schematic\Libs]
 "allcount"=dword:00000000
 "clibcount"=dword:00000000
 "libmode"=dword:00000000
