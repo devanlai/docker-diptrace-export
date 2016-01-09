@@ -8,7 +8,7 @@ ImportFromAscii(name)
     ControlSetText, Edit1, %myFileName%, A
     ControlClick, &Open, A
 
-    Sleep, 1000
+    Sleep, 9000
 
     WinWaitNotActive,, ahk_class #32770,, 3
 }
@@ -32,12 +32,12 @@ ConvertAsciiToSchematic()
     WinWait, ahk_exe Schematic.exe,,10
     WinActivate, ahk_exe Schematic.exe
 
-    Sleep, 3000
+    Sleep, 9000
 
     Send, !fid
 
     ImportFromAscii("import")
-    Sleep, 3000
+    Sleep, 9000
 
     Send, ^s
 
